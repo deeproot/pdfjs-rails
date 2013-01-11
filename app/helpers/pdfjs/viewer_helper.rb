@@ -7,9 +7,6 @@ module Pdfjs
       :zoom_buttons,
       :zoom_select,
       :fullscreen,
-      :bookmark,
-      :open,
-      :download,
       :print
     ]
     
