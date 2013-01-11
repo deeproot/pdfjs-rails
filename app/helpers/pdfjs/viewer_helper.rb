@@ -28,7 +28,7 @@ module Pdfjs
     ]
     
     def pdf_viewer(filename, options={})
-      toolbar = options.fetch(:toolbar, :default)
+      toolbar = options.fetch(:toolbar, :everything)
       
       toolbar = case toolbar
       when :everything; EVERYTHING
