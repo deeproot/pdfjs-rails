@@ -42,9 +42,6 @@ module Pdfjs
               <button id="viewThumbnail" class="toolbarButton group toggled" title="Show Thumbnails" tabindex="1" data-l10n-id="thumbs">
                  <span data-l10n-id="thumbs_label">Thumbnails</span>
               </button>
-              <button id="viewOutline" class="toolbarButton group" title="Show Document Outline" tabindex="2" data-l10n-id="outline">
-                 <span data-l10n-id="outline_label">Document Outline</span>
-              </button>
               <button id="viewSearch" class="toolbarButton group hidden" title="Search Document" tabindex="3" data-l10n-id="search_panel">
                  <span data-l10n-id="search_panel_label">Search Document</span>
               </button>
