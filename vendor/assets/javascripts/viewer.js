@@ -17,7 +17,7 @@
 
 'use strict';
 
-var kDefaultScale = 'page-fit;
+var kDefaultScale 'auto';
 var kDefaultScaleDelta = 1.1;
 var kUnknownScale = 0;
 var kCacheSize = 20;
