@@ -124,7 +124,7 @@ module Pdfjs
                        <select id="scaleSelect" title="Zoom" oncontextmenu="return false;" tabindex="10" data-l10n-id="zoom">
                         <option id="pageAutoOption" value="auto" data-l10n-id="page_scale_auto">Automatic Zoom</option>
                         <option id="pageActualOption" value="page-actual" data-l10n-id="page_scale_actual">Actual Size</option>
-                        <option id="pageFitOption" value="page-fit" selected="selected" data-l10n-id="page_scale_fit">Fit Page</option>
+                        <option id="pageFitOption" value="page-fit" data-l10n-id="page_scale_fit" selected>Fit Page</option>
                         <option id="pageWidthOption" value="page-width" data-l10n-id="page_scale_width">Full Width</option>
                         <option id="customScaleOption" value="custom"></option>
                         <option value="0.5">50%</option>
