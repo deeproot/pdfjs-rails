@@ -72,16 +72,7 @@ module Pdfjs
                       <button id="sidebarToggle" class="toolbarButton#{can_display[:sidebar]}" title="Toggle Sidebar" tabindex="4" data-l10n-id="toggle_slider">
                         <span data-l10n-id="toggle_slider_label">Toggle Sidebar</span>
                       </button>
-                      <!-- <div class="toolbarButtonSpacer#{can_display[:sidebar]}"></div>-->
-                  <div class="splitToolbarButton">
-                    <button class="toolbarButton firstPage" title="First Page" onclick="PDFView.page = 1;" id="first_page" tabindex="5" data-l10n-id="first_page">
-                      <span data-l10n-id="first_page_label">First</span>
-                    </button>
-                    <div class="splitToolbarButtonSeparator"></div>
-                    <button class="toolbarButton lastPage" title="Last Page" id="last_page" tabindex="5" data-l10n-id="last_page">
-                      <span data-l10n-id="last_page_label">Last</span>
-                    </button>
-                  </div>                      
+                      <!-- <div class="toolbarButtonSpacer#{can_display[:sidebar]}"></div>-->                      
                   <div class="splitToolbarButton">
                     <button class="toolbarButton pageUp#{can_display[:page_buttons]}" title="Previous Page" id="previous" tabindex="5" data-l10n-id="previous">
                       <span data-l10n-id="previous_label">Previous</span>
