@@ -17,7 +17,7 @@
 
 'use strict';
 
-var kDefaultScale 'auto';
+var kDefaultScale = 'auto';
 var kDefaultScaleDelta = 1.1;
 var kUnknownScale = 0;
 var kCacheSize = 20;
