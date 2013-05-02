@@ -453,7 +453,7 @@ var PDFView = {
           if (exception.code === 'needpassword') {
             var promptString = mozL10n.get('request_password', null,
                                       'PDF is protected by a password:');
-            password = prompt(promptString);
+            password = smoke.prompt(promptString);
             if (password && password.length > 0) {
               return PDFView.open(url, scale, password);
             }
